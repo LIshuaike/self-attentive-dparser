@@ -8,7 +8,7 @@ class Encoder(nn.Module):
                  hid_dim=1024,
                  n_layers=8,
                  n_heads=8,
-                 pf_dim='2048',
+                 pf_dim=2048,
                  device='cuda',
                  morpho_dropout=0.2,
                  attention_dropout=0.2,
